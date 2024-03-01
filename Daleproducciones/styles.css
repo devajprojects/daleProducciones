@@ -1,0 +1,133 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    font-family:"Gotham", sans-serif; /* para usar la fuente Gotham */
+}
+
+.navbar-brand img:hover {
+  transition: transform 0.3s ease; /* Transición suave para el cambio de transformación */
+  transform: rotate(360deg); /* Rotación completa de 360 grados */
+}
+
+/* Primer elemento */
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link:hover {
+  color: #ff272a; /* Color de texto al hacer hover */
+  filter: saturate(150%); /* Ajuste de saturación para intensificar el color */
+}
+
+/* Segundo elemento */
+.navbar-nav .nav-item:nth-child(2) .nav-link {
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item:nth-child(2) .nav-link:hover {
+  color: #ffaa27; /* Color de texto al hacer hover */
+  filter: saturate(150%); /* Ajuste de saturación para intensificar el color */
+}
+
+/* Tercer elemento */
+.navbar-nav .nav-item:nth-child(3) .nav-link {
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item:nth-child(3) .nav-link:hover {
+  color: #0074d3; /* Color de texto al hacer hover */
+  filter: saturate(150%); /* Ajuste de saturación para intensificar el color */
+}
+
+/* Cuarto elemento */
+.navbar-nav .nav-item:nth-child(4) .nav-link {
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item:nth-child(4) .nav-link:hover {
+  color: #ff0197; /* Color de texto al hacer hover */
+  filter: saturate(150%); /* Ajuste de saturación para intensificar el color */
+}
+
+/* Quinto elemento */
+.navbar-nav .nav-item:nth-child(5) .nav-link {
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item:nth-child(5) .nav-link:hover {
+  color: #0074d3; /* Color de texto al hacer hover */
+  filter: saturate(150%); /* Ajuste de saturación para intensificar el color */
+}
+
+/* Elementos del menú desplegable */
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  color: #ff272a; /* Color de texto al hacer hover */
+  filter: saturate(150%); /* Ajuste de saturación para intensificar el color */
+}
+
+.about_us > .row > .col-md-3 > img:hover {
+  transition: transform 0.3s ease; /* Transición suave para el cambio de transformación */
+  transform: rotate(360deg); /* Rotación completa de 360 grados */
+}
+.carousel-item img {
+  max-width: 100%;
+  /* Ajusta el ancho máximo al 100% del contenedor */
+  height: auto;
+  /* Mantén la proporción de aspecto original */
+}
+
+.row-with-bg {
+  background-image: url("./assets/03-realización-de-espacios/Imagen1.jpg");
+  /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center;
+  /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+.space-planning {
+  background-color: #0074d3;
+  color: white;
+}
+
+.row-with-bg-content-production {
+  background-image: url("./assets/06-produccion-de-contenidos/DSC_7010.jpg");
+  /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center;
+  /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+.content-production {
+  background-color: #ff0197;
+  color: white;
+}
+
+/* Estilo inicial para la imagen */
+.img-effect {
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto de hover */
+.img-effect:hover {
+  filter: saturate(150%) brightness(90%);
+  transform: scale(1.05); /* Leve zoom */
+}
+
+.footer-rosa {
+  background-color: #ffaa27;
+}
+
+
+
