@@ -3,7 +3,7 @@ html{
 }
 
 *{
-    font-family:"Gotham", sans-serif; /* para usar la fuente Gotham */
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .navbar-brand img:hover {
