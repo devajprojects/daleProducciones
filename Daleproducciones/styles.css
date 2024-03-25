@@ -6,9 +6,10 @@ body{
     overflow-x: hidden;
 }
 
-*{
+.text-custom, .navbar{
   font-family: 'Fjalla One', sans-serif;
 }
+
 
 .navbar-brand img:hover {
   transition: transform 0.3s ease; /* Transición suave para el cambio de transformación */
@@ -79,6 +80,7 @@ body{
   transition: transform 0.3s ease; /* Transición suave para el cambio de transformación */
   transform: rotate(360deg); /* Rotación completa de 360 grados */
 }
+
 .carousel-item img {
   max-width: 100%;
   /* Ajusta el ancho máximo al 100% del contenedor */
