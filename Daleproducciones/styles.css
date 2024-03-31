@@ -10,6 +10,9 @@ body{
   font-family: 'Fjalla One', sans-serif;
 }
 
+.navbar-nav a {
+  font-size: 18px;
+}
 
 .navbar-brand img:hover {
   transition: transform 0.3s ease; /* Transición suave para el cambio de transformación */
@@ -104,6 +107,10 @@ body{
   color: white;
 }
 
+.separador{
+  background-color: #0074d3;
+}
+
 .row-with-bg-content-production {
   background-image: url("./assets/06-produccion-de-contenidos/DSC_7010.jpg");
   /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
@@ -120,6 +127,11 @@ body{
   color: white;
 }
 
+.separador-produccion{
+  background-color: #ff0197;
+}
+
+
 /* Estilo inicial para la imagen */
 .img-effect {
   transition: filter 0.3s ease, transform 0.3s ease;
@@ -129,6 +141,16 @@ body{
 .img-effect:hover {
   filter: saturate(150%) brightness(90%);
   transform: scale(1.05); /* Leve zoom */
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.4)); /* Ajusta los valores según desees */
+  transition: filter 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Cuando pases el ratón sobre las imágenes, aumenta ligeramente el efecto de sombra */
+.drop-shadow:hover {
+  filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.6)); /* Ajusta los valores según desees */
 }
 
 .footer-rosa {
