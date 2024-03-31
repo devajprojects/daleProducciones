@@ -157,5 +157,35 @@ body{
   background-color: #ffaa27;
 }
 
+/* Estilos para el botón flotante */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.floating-button img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el botón flotante en dispositivos móviles */
+@media (max-width: 480px) {
+  .floating-button {
+    bottom: 10px; /* Ajusta la posición para dispositivos móviles */
+    right: 10px; /* Ajusta la posición para dispositivos móviles */
+  }
+}
+
+@media (max-width: 767px) {
+  .floating-button {
+    bottom: 10px; /* Ajusta la posición para dispositivos móviles */
+    right: 10px; /* Ajusta la posición para dispositivos móviles */
+  }
+}
+
 
 
