@@ -91,6 +91,12 @@ body{
   /* Mantén la proporción de aspecto original */
 }
 
+.abcd-img{
+  width: 100%;
+}
+
+
+
 .row-with-bg {
   background-image: url("./assets/03-realización-de-espacios/Imagen1.jpg");
   /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
