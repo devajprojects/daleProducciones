@@ -184,12 +184,18 @@ body{
     bottom: 10px; /* Ajusta la posición para dispositivos móviles */
     right: 10px; /* Ajusta la posición para dispositivos móviles */
   }
+  .custom-margin{
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 767px) {
   .floating-button {
     bottom: 10px; /* Ajusta la posición para dispositivos móviles */
     right: 10px; /* Ajusta la posición para dispositivos móviles */
+  }
+  .custom-margin{
+    margin-bottom: 40px;
   }
 }
 
